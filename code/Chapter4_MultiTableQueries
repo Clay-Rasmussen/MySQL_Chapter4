@@ -1,0 +1,13 @@
+/*
+Clay Rasmussen
+Query 1: Inner Join
+• write a query that produces the following output displaying the film’s language
+• tables: film, language
+• sort by title
+• only display the first 10 rows (records)
+*/
+SELECT film_id, title, description, f.language_id, name
+FROM film f JOIN language l
+	ON f.language_id = l.language_id
+ORDER BY title
+LIMIT 10;
