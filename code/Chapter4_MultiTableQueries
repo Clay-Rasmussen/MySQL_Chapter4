@@ -11,3 +11,17 @@ FROM film f JOIN language l
 	ON f.language_id = l.language_id
 ORDER BY title
 LIMIT 10;
+
+/*
+Christian Yager
+Query 2: Compound Join Condition
+•	write a query that produces the following output displaying customers with an actor name
+•	tables: customer, actor
+•	sort by customer name
+*/
+SELECT CONCAT(c.last_name,', ', c.first_name) AS customer_name, 
+	CONCAT(a.last_name,', ', a.first_name) AS actor_name
+FROM customer c JOIN actor a
+	ON c.first_name = a.first_name
+    AND c.last_name = a.last_name
+ORDER BY customer_name;
