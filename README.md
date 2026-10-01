@@ -1,1 +1,1 @@
-# MySQL_Chapter4 - MultiTableQueries
+# MySQL_Chapter4_MultiTableQueries
