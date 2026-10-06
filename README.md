@@ -50,43 +50,51 @@ ___
 ___
 **Query 1**
 
-<img src="assets/Query_1.png" alt="Query 1" width="500" />
+<img src="assets/query1.png" alt="Query 1" width="500" />
 
 **Query 2**
 
-<img src="assets/Query_2.png" alt="Query 2" width="500" />
+<img src="assets/query2.png" alt="Query 2" width="500" />
 
 **Query 3**
 
-<img src="assets/Query_3.png" alt="Query 3" width="500" />
+<img src="assets/query3.png" alt="Query 3" width="500" />
 
 **Query 4**
 
-<img src="assets/Query_4.png" alt="Query 4" width="500" />
+<img src="assets/query4.png" alt="Query 4" width="500" />
 
 **Query 5**
 
-<img src="assets/Query_5.png" alt="Query 5" width="500" />
+<img src="assets/query5.png" alt="Query 5" width="500" />
 
 **Query 6**
 
-<img src="assets/Query_6.png" alt="Query 6" width="500" />
+<img src="assets/query6.png" alt="Query 6" width="500" />
 
 **Query 7**
 
-<img src="assets/Query_7.png" alt="Query 7" width="500" />
+<img src="assets/query7.png" alt="Query 7" width="500" />
 
 **Query 8**
 
-<img src="assets/Query_8.png" alt="Query 8" width="500" />
+<img src="assets/query8.png" alt="Query 8" width="500" />
 
 **Query 9**
 
-<img src="assets/Query_9.png" alt="Query 9" width="500" />
+<img src="assets/query9.png" alt="Query 9" width="500" />
 
 **Query 10**
 
-<img src="assets/Query_10.png" alt="Query 10" width="500" />
+<img src="assets/query10.png" alt="Query 10" width="500" />
+
+**Query 11**
+
+<img src="assets/query11.png" alt="Query 11" width="500" />
+
+**Query 12**
+
+<img src="assets/query12.png" alt="Query 12" width="500" />
 
 ## Learning Outcomes
 ___
