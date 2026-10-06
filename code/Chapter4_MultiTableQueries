@@ -70,3 +70,20 @@ WHERE s.address_id = a.address_id
 	AND a.city_id = ci.city_id
 	AND ci.country_id = co.country_id
 ORDER BY s.last_name, s.first_name;
+
+/*
+Christian Yager
+Query 6: Left Outer Join
+•	write a query that produces the following output displaying all titles that have never been rented
+•	using a LEFTER OUTER JOIN
+•	sort by title
+•	tables: film, inventory, and rental
+*/
+SELECT f.film_id, title, r.rental_id, r.rental_date
+FROM film f 
+	LEFT JOIN inventory i 
+	ON f.film_id = i.film_id
+    LEFT JOIN rental r
+    ON i.inventory_id = r.inventory_id
+WHERE r.rental_id IS NULL
+ORDER BY title;
