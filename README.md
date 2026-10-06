@@ -2,7 +2,9 @@
 
 ## Overview
 ___
-
+This chapter focuses on retrieving data from multiple tables in the MySQL Sakila database. The exercises demonstrate different types of SQL
+joins and set operations, including inner joins, outer joins, self-joins, cross joins, and unions. The goal is to understand how related
+information can be combined from multiple tables using different SQL techniques.
 
 ## Table of Contents
 ___
@@ -16,7 +18,18 @@ ___
 
 ### New Concepts
 ___
-
+* Inner Join – Combines records from two tables when matching values exist.
+* Compound Join Condition – Uses multiple conditions when joining tables.
+* Self-Join – Joins a table to itself to compare records within the same table.
+* Multiple Table Joins – Combines information from more than two tables.
+* Implicit Inner Join – Uses comma-separated tables with a `WHERE` clause instead of the `JOIN` keyword.
+* Left Outer Join – Returns all records from the left table, including records without a match.
+* Right Outer Join – Returns all records from the right table, including records without a match.
+* `USING` Keyword – Provides a shorter way to specify a join when the related columns have the same name.
+* `NATURAL` Join – Automatically joins tables using columns with matching names.
+* Cross Join – Combines every record from one table with every record from another table.
+* `UNION` – Combines the results of multiple queries into one result set.
+* Full Outer Join – Returns matching records as well as unmatched records from both tables.
 
 ## Tech Stack
 ___
@@ -26,7 +39,12 @@ ___
 
 ## Installation
 ___
-
+1. Clone the repository to your local machine. (Or just steal my code.)
+2. Install MySQL if it is not already installed.
+3. Download and install the Sakila sample database.
+4. Open the project in VS Code or your preferred SQL editor.
+5. Select the Sakila database before running the queries.
+6. Run each query individually to verify the results.
 
 ## Running Output
 ___
@@ -72,7 +90,20 @@ ___
 
 ## Learning Outcomes
 ___
-
+* Retrieve information from multiple tables using SQL joins.
+* Understand and use different types of joins.
+* Use table aliases to make SQL queries easier to read.
+* Create compound join conditions.
+* Use a self-join to compare records within the same table.
+* Join three or more tables together.
+* Understand the difference between explicit and implicit join syntax.
+* Use LEFT OUTER JOIN and RIGHT OUTER JOIN.
+* Use the USING and NATURAL JOIN keywords.
+* Create a CROSS JOIN to generate combinations of records.
+* Combine query results using UNION.
+* Understand how a FULL OUTER JOIN works.
+* Sort and limit query results using ORDER BY and LIMIT.
+* Write properly formatted and documented SQL queries.
 
 ## Help
 ___
