@@ -116,3 +116,15 @@ FROM staff s
 	JOIN city ci USING (city_id)
 	JOIN country co USING (country_id)
 ORDER BY s.last_name, s.first_name;
+
+/*
+Christian Yager
+Query 10: Cross Join
+•	write a query that produces the following output displaying every staff assigned to every store
+•	Using a CROSS JOIN
+•	sort by staff id, store id
+•	tables: staff, store
+*/
+SELECT s1.staff_id, s1.first_name, s1.last_name, s2.store_id
+FROM staff s1 CROSS JOIN store s2
+ORDER BY staff_id, store_id;
