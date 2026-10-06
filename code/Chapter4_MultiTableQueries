@@ -145,6 +145,23 @@ FROM staff s1 CROSS JOIN store s2
 ORDER BY staff_id, store_id;
 
 /*
+Clay Rasmussen
+Query 11: Union
+• write a query that produces the following output displaying customer’s 9 rentals with an IN/OUT status
+• using a UNION
+• sort by rental_date
+• tables: rental
+*/
+SELECT r.customer_id, r.rental_id, r.rental_date, r.inventory_id, 'OUT' AS status
+	FROM rental r
+	WHERE customer_id = 9 AND return_date IS NULL
+UNION
+	SELECT r.customer_id, r.rental_id, r.rental_date, r.inventory_id, 'IN' AS status
+	FROM rental r
+	WHERE customer_id = 9 AND return_date IS NOT NULL
+ORDER BY rental_date;
+
+/*
 Christian Yager
 Query 12: Full Outer Join
 •	rewrite query 7 as a full outer join 
